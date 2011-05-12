@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>group :test do
+  gem 'cucumber'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem "autotest-rails"
+  gem "autotest-notification"
+  gem "rspec"
+  gem "rspec-rails"
+  gem "spork"
+  gem "launchy"
+  gem "systemu"
+  gem "mongrel", "1.2.0.pre2"
+end</string>
+	<key>name</key>
+	<string>Gemfile: test group</string>
+	<key>tabTrigger</key>
+	<string>testgroup</string>
+	<key>uuid</key>
+	<string>666D9D04-EAEC-4A3E-9B41-2C46A0C91D83</string>
+</dict>
+</plist>

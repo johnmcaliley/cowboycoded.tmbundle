@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gem "$1", :git=&gt;"git@github.com:${2:charlotte-ruby}/$3.git"
+</string>
+	<key>name</key>
+	<string>Gemfile: git gem</string>
+	<key>tabTrigger</key>
+	<string>gitgem</string>
+	<key>uuid</key>
+	<string>60344507-6D7F-41D5-BDF8-00DB3B56FEF6</string>
+</dict>
+</plist>

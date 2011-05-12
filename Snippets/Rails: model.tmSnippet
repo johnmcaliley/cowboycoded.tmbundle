@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class $1 &lt; ActiveRecord::Base
+  $2
+end</string>
+	<key>name</key>
+	<string>Rails: model</string>
+	<key>uuid</key>
+	<string>BA86878C-B8B1-4410-9F67-389A316A2BB8</string>
+</dict>
+</plist>

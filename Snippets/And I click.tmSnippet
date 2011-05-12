@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>And I click "$1"
+</string>
+	<key>name</key>
+	<string>Cucumber: And I click</string>
+	<key>scope</key>
+	<string>text.gherkin.feature</string>
+	<key>tabTrigger</key>
+	<string>aic</string>
+	<key>uuid</key>
+	<string>CD779229-1D0B-4975-808A-A56255024D17</string>
+</dict>
+</plist>

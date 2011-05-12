@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>autoload :${1:Module}, '`#!/usr/bin/env ruby
+puts ENV['TM_FILENAME'].gsub(/\.rb$/, '')
+`/$3'
+</string>
+	<key>name</key>
+	<string>Plugin: autoload</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>autoload</string>
+	<key>uuid</key>
+	<string>C9FF44BB-A358-4B05-8ECA-551BFF3636DE</string>
+</dict>
+</plist>

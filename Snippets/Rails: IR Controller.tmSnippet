@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class $1 &lt; InheritedResources::Base
+  $2
+end</string>
+	<key>name</key>
+	<string>Rails: IR Controller</string>
+	<key>tabTrigger</key>
+	<string>irc</string>
+	<key>uuid</key>
+	<string>F242F331-7BA5-4520-BB03-487C91C7556A</string>
+</dict>
+</plist>

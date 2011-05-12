@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require 'rails/generators'
+require 'rails/generators/migration'     
+
+module `#!/usr/bin/env ruby
+    require 'rubygems'
+    require "active_support"
+    puts ENV['TM_FILEPATH'].split("/")[-3].gsub(/\.rb$/, '').camelize.singularize
+    `
+  class `#!/usr/bin/env ruby
+    require 'rubygems'
+    require "active_support"
+    puts ENV['TM_FILENAME'].gsub(/\.rb$/, '').camelize.singularize
+    ` &lt; Rails::Generators::Base
+    TEMPLATES_DIR = File.join(File.dirname(__FILE__), 'templates')
+    source_root TEMPLATES_DIR
+
+    def generate
+      $1
+    end
+  end
+end</string>
+	<key>name</key>
+	<string>Plugin: generator skelaton</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>gen</string>
+	<key>uuid</key>
+	<string>132E515B-6E81-458C-AC21-41CE3A9A572C</string>
+</dict>
+</plist>
