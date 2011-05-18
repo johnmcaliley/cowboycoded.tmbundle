@@ -4,14 +4,16 @@
 <dict>
 	<key>content</key>
 	<string>#$TM_SELECTED_TEXT-outer{
-  margin:0 auto;
-  width:960px;
   #$TM_SELECTED_TEXT{
+    margin:0 auto;
+    width:960px;
     $1
   }
 }</string>
 	<key>name</key>
 	<string>CSS: center scss</string>
+	<key>tabTrigger</key>
+	<string>center</string>
 	<key>uuid</key>
 	<string>B42ECDD9-1D31-4E22-B346-D117646E90B3</string>
 </dict>
