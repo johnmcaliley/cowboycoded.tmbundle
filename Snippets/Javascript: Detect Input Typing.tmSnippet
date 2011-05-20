@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>  \$("#$1").keyup(function(){
+    if ($(this).val().length==2){
+      \$("#$2").load("/$3");
+    }
+  });</string>
+	<key>name</key>
+	<string>Javascript: Detect Input Typing</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>typing</string>
+	<key>uuid</key>
+	<string>6D883C4C-781C-40FB-B2F6-D7C10DF6F233</string>
+</dict>
+</plist>

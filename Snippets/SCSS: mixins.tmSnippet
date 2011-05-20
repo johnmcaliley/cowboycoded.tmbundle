@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@mixin gradient(\$bottom-color: #fcfcfc, \$top-color: #ededed){
+  background-color: #fcfcfc;
+  background-image: -moz-linear-gradient(top, #{\$top-color}, #{\$bottom-color}); /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #{\$top-color}, #{\$bottom-color});  /* IE10 */
+  background-image: -o-linear-gradient(top, #{\$top-color}, #{\$bottom-color});  /* Opera 11.10+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#{\$top-color}), to(#{\$bottom-color}));  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #{\$top-color}, #{\$bottom-color});  /* Chrome 10+, Saf5.1+ */
+  background-image: linear-gradient(top, #{\$top-color}, #{\$bottom-color});
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{\$top-color}', EndColorStr='#{\$bottom-color}');  /* IE6–IE9 */
+}
+
+@mixin shadow(\$h: 5px, \$v: 5px, \$blur: 5px, \$color: #ccc){
+  -moz-box-shadow: #{\$h} #{\$v} #{\$blur} #{\$color};
+  -webkit-box-shadow: #{\$h} #{\$v} #{\$blur} #{\$color};
+  box-shadow: #{\$h} #{\$v} #{\$blur} #{\$color};
+}
+
+@mixin round(\$radius: 10px){
+  -moz-border-radius: #{\$radius};
+  -webkit-border-radius: #{\$radius};
+  border-radius: #{\$radius}; /* future proofing */
+  -khtml-border-radius: #{\$radius}; /* for old Konqueror browsers */
+}</string>
+	<key>name</key>
+	<string>SCSS: mixins</string>
+	<key>tabTrigger</key>
+	<string>mixins</string>
+	<key>uuid</key>
+	<string>3BB81791-CF84-4937-801F-C4B5649603D8</string>
+</dict>
+</plist>
