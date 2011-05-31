@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@mixin round($radius: 10px){
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius; /* future proofing */
+  -khtml-border-radius: $radius; /* for old Konqueror browsers */
+}</string>
+	<key>name</key>
+	<string>SCSS: Rounded Mixin</string>
+	<key>tabTrigger</key>
+	<string>round</string>
+	<key>uuid</key>
+	<string>A66B76DC-B2C7-47DC-9765-D0D8A6556D7A</string>
+</dict>
+</plist>

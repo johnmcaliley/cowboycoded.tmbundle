@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@mixin gradient($bottom-color: #fcfcfc, $top-color: #ededed){
+  background-color: $bottom-color;
+  background-image: -moz-linear-gradient(top, $top-color, $bottom-color); /* FF3.6 */
+  background-image: -ms-linear-gradient(top, $top-color, $bottom-color);  /* IE10 */
+  background-image: -o-linear-gradient(top, $top-color, $bottom-color);  /* Opera 11.10+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($top-color), to($bottom-color));  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $top-color, $bottom-color);  /* Chrome 10+, Saf5.1+ */
+  background-image: linear-gradient(top, $top-color, $bottom-color);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$top-color}', EndColorStr='#{$bottom-color}');  /* IE6–IE9 */
+}
+</string>
+	<key>name</key>
+	<string>SCSS: Gradient Mixin</string>
+	<key>tabTrigger</key>
+	<string>gradient</string>
+	<key>uuid</key>
+	<string>5FE74684-EDB5-4640-BE12-9C5FF1419556</string>
+</dict>
+</plist>

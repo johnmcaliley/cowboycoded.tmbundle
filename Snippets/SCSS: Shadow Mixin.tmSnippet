@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@mixin shadow($h: 1px, $v: 1px, $blur: 2px, $color: rgba(0, 0, 0, 0.3)){
+  -moz-box-shadow: $h $v $blur $color;
+  -webkit-box-shadow: $h $v $blur $color;
+  box-shadow: $h $v $blur $color;
+}</string>
+	<key>name</key>
+	<string>SCSS: Shadow Mixin</string>
+	<key>tabTrigger</key>
+	<string>shadow</string>
+	<key>uuid</key>
+	<string>7E346237-5251-4280-88FB-DEF1D05A90EF</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@mixin inset-shadow($h: 1px, $v: 1px, $blur: 2px, $color: rgba(0, 0, 0, 0.3)){
+  -moz-box-shadow:inset $h $v $blur $color;
+  webkit-box-shadow:inset $h $v $blur $color;
+  box-shadow:inset $h $v $blur $color;
+}</string>
+	<key>name</key>
+	<string>SCSS: Inset Shadow</string>
+	<key>uuid</key>
+	<string>29DA5D5F-6858-425F-A21B-DB0FDB263E80</string>
+</dict>
+</plist>
