@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class `#!/usr/bin/env ruby
+    require 'rubygems'
+    require "active_support"
+    puts ENV['TM_FILENAME'].gsub(/\.rb$/, '').camelize
+    ` &lt; ApplicationController
+  $1
+end</string>
+	<key>name</key>
+	<string>Rails: controller</string>
+	<key>tabTrigger</key>
+	<string>cont</string>
+	<key>uuid</key>
+	<string>E1FB4798-EEA1-44F7-985D-A6B0A697DE95</string>
+</dict>
+</plist>
